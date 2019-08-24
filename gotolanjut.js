@@ -1,4 +1,4 @@
-/* PERGI KE LAMAN SEBENTAR */
+/* PERGI KE LAMAN LANJUT */
 function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);}
 setTimeout("location.href = '/p/lanjut.html';",20000);
