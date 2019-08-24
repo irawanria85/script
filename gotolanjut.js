@@ -1,7 +1,7 @@
 /* PERGI KE LAMAN LANJUT */
 function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);}
-setTimeout("location.href = '/p/lanjut.html';",20000);
+setTimeout("location.href = '/p/lanjut.html';",25000);
 /* JIKA MENGGUNAKAN PC */
 if((navigator.userAgent.match(/iPhone/i))||(navigator.userAgent.match(/iPod/i))||(navigator.userAgent.indexOf('Android')!=-1)){}
 else location.replace("/p/please-wait.html");
