@@ -1,4 +1,4 @@
-* PERGI KE LAMAN JOS */
+/* PERGI KE LAMAN JOS */
 function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);}
 setTimeout("location.href = '/p/jos.html';",25000);
