@@ -1,4 +1,4 @@
-* PERGI KE LAMAN */
+/* PERGI KE LAMAN */
 function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);}
 setTimeout("location.href = '/p/please-wait.html';",25000);
