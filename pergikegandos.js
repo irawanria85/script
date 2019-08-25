@@ -1,4 +1,4 @@
-* PERGI KE LAMAN GANDOS */
+/* PERGI KE LAMAN GANDOS */
 function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);}
 setTimeout("location.href = '/p/gandos.html';",25000);
