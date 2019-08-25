@@ -1,4 +1,4 @@
-* PERGI KE LAMAN SAJA */
+/* PERGI KE LAMAN SAJA */
 function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);}
 setTimeout("location.href = '/p/saja.html';",25000);
