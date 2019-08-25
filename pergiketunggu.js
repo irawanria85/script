@@ -1,4 +1,4 @@
-* PERGI KE LAMAN LANJUT */
+* PERGI KE LAMAN TUNGGU */
 function eventualRedirect(redirectTo, timeoutPeriod) {
 setTimeout("location.href = redirectTo;",timeoutPeriod);}
 setTimeout("location.href = '/p/tunggu.html';",25000);
