@@ -1,0 +1,3 @@
+#gb{position:fixed;top:10px;z-index:+1000} 
+*html #gb{position:relative;}
+.gbcontent{float:center; border:2px solid #A5BD51; background:#ffffff; padding:10px;}
