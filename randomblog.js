@@ -1,6 +1,7 @@
 var sites = [
 
-  "https://vimambo.blogspot.com/2019/05/cancer-test-scam-hits-spokane.html",
+
+"https://vimambo.blogspot.com/2019/05/cancer-test-scam-hits-spokane.html",
 "https://vimambo.blogspot.com/2019/05/oic-impersonator-contacting-auto.html",
 "https://vimambo.blogspot.com/2019/03/spring-snowmelt-rain-will-increase.html",
 "https://vimambo.blogspot.com/2019/03/what-happens-if-i-total-my-car.html",
